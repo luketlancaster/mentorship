@@ -35,14 +35,7 @@ body {
     font-size: 10px;
 }
 
-.specification-section p {
-    font-weight: bold;
-    text-indent: 18px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.pricing-section p {
+.specification-section p, .pricing-section p {
     font-weight: bold;
     text-indent: 18px;
     margin-top: 5px;
