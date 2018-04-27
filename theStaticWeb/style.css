@@ -1,0 +1,43 @@
+body {
+    float: left;
+}
+
+.card {
+    border: 1px solid lightblue;
+    width: 30%;
+    margin: 20px;
+    float: left;
+    padding: 10px;
+}
+
+.product-title {
+    border: 1px dotted lightgrey;
+    text-align: center;
+}
+
+.img-section img {
+    margin: 10px auto;
+    display: inherit;
+}
+
+.img-section p {
+    text-align: justify;
+}
+
+.availability {
+    background: grey;
+    color: yellow;
+    padding: 10px;
+    margin: -10px;
+}
+
+.specification-section footer {
+    font-size: 10px;
+}
+
+.specification-section p, .pricing-section p {
+    font-weight: bold;
+    text-indent: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
