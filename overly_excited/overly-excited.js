@@ -8,9 +8,13 @@ function addExcitement(theWordArray) {
       outputs the words.
      */
     let greeting = '';
-    for (let index = 0; index < theWordArray.length; index++) {
-        const element = theWordArray[index];
-        greeting += `${element} `;
+    for (let index = 1; index < theWordArray.length + 1; index++) {
+        const element = theWordArray[index - 1];
+        if (index % 3 === 0) {
+            greeting += `${element}! `;
+        } else {
+            greeting += `${element} `;
+        }
         console.log(greeting);
     }
 }
