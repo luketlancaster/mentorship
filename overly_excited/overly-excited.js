@@ -11,7 +11,8 @@ function addExcitement(theWordArray) {
     for (let index = 1; index < theWordArray.length + 1; index++) {
         const element = theWordArray[index - 1];
         if (index % 3 === 0) {
-            greeting += `${element}! `;
+            let excl = '!'.repeat(index / 3);
+            greeting += `${element}${excl} `;
         } else {
             greeting += `${element} `;
         }
